@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Jeferson soares da Silva</title>
+    <!-- Google Fonts + Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="animated-bg"></div>
+
+<header>
+    <div class="nav-container">
+        <div class="logo">Portifolio</div>
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home" class="nav-link">Início</a></li>
+            <li><a href="#sobre" class="nav-link">Sobre mim</a></li>
+            <li><a href="#projeto" class="nav-link">Meu projeto</a></li>
+            <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+    </div>
+</header>
+
+<main>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Jeferson</h1>
+            <div class="typed-text" id="typed-text"></div>
+            <p class="hero-desc">Tenho 26 anos sou aproximado por tecnologia da informação, gosto muito de aprender a cada dia</p>
+            <a href="#projeto" class="btn">Explorar projetos </i></a>
+        </div>
+        <div class="profile-wrapper">
+            <img class="profile-img" src="perfil.jpeg" alt="foto de perfil">
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h2 class="section-title">📌 Sobre mim</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <p style="font-size: 1.1rem; line-height: 1.5;"> Olá! Jeferson soares da Silva, apaixonado por código criativo e animações .</p>
+                <br>
+                <p>🌍sempre focado em acessibilidade e inovação. Fora do códigoo que alimenta minha criatividade</p>
+            </div>
+           
+        </div>
+    </section>
+
+    <section id="projeto">
+        <h2 class="section-title">🚀 Meu projeto em destaque</h2>
+        <div class="project-card">
+            <img class="project-img" src="https://picsum.photos/id/104/800/500" alt="Preview do projeto FlowSpace">
+            <div class="project-info">
+                <h3>ainda em Teste</h3>
+                <p>em analise</p>
+                <div>
+                    <span class="tech-badge">ainda serar desenvolvido</span>
+                   
+                </div>
+                <div style="margin-top: 1.5rem;">
+                    <a href="#" class="btn" style="padding: 0.6rem 1.5rem; font-size: 0.9rem;">Ver codig <i class="fas fa-external-link-alt"></i></a>
+                    <a href="#" class="btn" style="background: transparent; color:#4f46e5; box-shadow: none; margin-left: 0.8rem; border:1px solid #cbd5e1;">Repositório</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2 class="section-title">📬 Vamos conversar</h2>
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="input-group">
+                        <input type="text" id="name" placeholder="Seu nome" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" placeholder="Seu e-mail" required>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="4" placeholder="Sua mensagem criativa..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width:100%;">Enviar mensagem <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+            <div class="social-links">
+                <div class="social-icon"><i class="fab fa-github"></i> <a href="https://github.com/soares34230722/portifolio">github.com/alexrivera</a></div>
+                
+                
+                <div class="social-icon"><i class="fas fa-envelope"></i> <a href="#">soaressilva581@gmail.com</a></div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 Jeferson soares da Silva• Todos os movimentos inspirados na criatividade.</p>
+</footer>
+
+<div id="toastMsg" class="toast-msg">✨ Mensagem enviada! Em breve retorno.</div>
+
+<script src="script.js"></script>
+</body>
+</html>
